@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>Service</title>
+    <!-- 新 Bootstrap 核心 CSS 文件 -->
+	<link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<!-- Custom styles for this template -->
+	<link rel="stylesheet" href="css/base-style.css" />
+	<link rel="stylesheet" href="css/style.css" />
+	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="http://cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="http://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+
+<div class="navbar-home bg-black">
+	<div class="container padding-none">
+		<nav class="navbar navbar-default bg-none border-none">
+	        <div class="container-fluid padding-none">
+	          <div class="navbar-header">
+	            <button type="button" class="navbar-toggle collapsed border-none" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+	              <span class="sr-only">Toggle navigation</span>
+	              <span class="icon-bar"></span>
+	              <span class="icon-bar"></span>
+	              <span class="icon-bar"></span>
+	            </button>
+	            <a class="pull-left" href="#"><img src="img/logo.png" class="img-responsive"/></a>
+	          </div>
+	          <div id="navbar" class="navbar-collapse collapse">
+	            <ul class="nav navbar-nav navbar-right navbar-black">
+	              <li><a href="index.html">Home</a></li>
+	              <li class="hidden"><a href="school-list.html">School</a></li>
+	              <li><a href="home-list.html">Homestay</a></li>
+	              <li class="hidden"><a href="guardian-list.html">Guardian</a></li>
+	              <li class="hidden"><a href="login.html">Sign In</a></li>
+	              <li class="hidden"><a href="login.html" class="active">Sign Up</a></li>
+	              <li class="nav-user">
+	                <a href="#"> 
+	                	<img src="img/userheader.png" class="user-img" />
+	                	User name <span class="caret"></span>
+	                </a>
+	                <ul class="user-menu">
+	                	<li><a href="user.html"><i class="glyphicon glyphicon-edit font12"></i>Edit</a></li>
+	                	<li><a href="change-password.html"><i class="glyphicon glyphicon-lock font12"></i>Change password</a></li>
+	                	<li><a href="#"><i class="glyphicon glyphicon-log-out font12"></i>Log out</a></li>
+	                </ul>
+	              </li>
+	            </ul>
+	          </div><!--/.nav-collapse -->
+	        </div><!--/.container-fluid -->
+        </nav>		
+	</div>
+</div>
+
+<div class="list-box-group">
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-12 list-box-group-sm bg-white title-nav">
+				<h5>
+					<i class="glyphicon glyphicon-home"></i>
+					<a href="index.html">Home</a>  /  <a href="##">User Center</a>  /  Release house info
+				</h5>
+			</div>
+		</div>
+		<div class="row bg-white main-box">
+			<div class="col-lg-12">
+				<div class="form-group-box border-none step-list relative">
+					<ul>
+						<li class="text-color-black"><i class="icon-home"></i><br />Base info</li>
+						<hr class="border-black"/>
+						<li class="text-color-black"><i class="icon-group"></i><br />Family</li>
+						<hr class="border-black"/>
+						<li class="text-color-black"><i class="icon-list"></i><br />Requirement</li>
+						<hr class="border-black"/>
+						<li class="text-color-black"><i class="icon-leaf"></i><br />service</li>
+						<hr />
+						<li><i class="icon-question-sign"></i><br />Q & A</li>
+						<hr />
+						<li><i class="icon-credit-card"></i><br />bank</li>
+					</ul>
+				</div>					
+			</div>
+			<div class="col-lg-12">
+				<h4>是否提供餐饮？（如果提供，请简单描述下提供的餐饮种类）</h4>
+				<div class="form-group-box">
+					<div class="row">
+					    <div class="col-lg-12">
+					    	<div class="form-group">
+							    <label class="radio-inline">
+								    <input type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1"> Yes
+								</label>
+								<label class="radio-inline">
+								    <input type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2"> No
+								</label>
+							</div>
+							<div class="form-group">
+								<textarea class="form-control" id="" style="height:100px;"></textarea>
+							</div>
+					    </div>
+					</div>
+				</div>					
+			</div>
+			<div class="col-lg-12">
+				<h4>是否接送？</h4>
+				<div class="form-group-box">
+					<div class="row">
+					    <div class="col-lg-12">
+							<div class="form-group">
+							    <label class="radio-inline">
+								    <input type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1"> Yes
+								</label>
+								<label class="radio-inline">
+								    <input type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2"> No
+								</label>
+							</div>
+					    </div>
+					</div>
+				</div>					
+			</div>
+			<div class="col-lg-12">
+				<h4>是否提供网络？</h4>
+				<div class="form-group-box">
+					<div class="row">
+					    <div class="col-lg-12">
+							<div class="form-group">
+							    <label class="radio-inline">
+								    <input type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1"> Yes
+								</label>
+								<label class="radio-inline">
+								    <input type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2"> No
+								</label>
+							</div>
+					    </div>
+					</div>
+				</div>					
+			</div>
+			<div class="col-lg-12">
+				<h4>是否可以担任监护人？</h4>
+				<div class="form-group-box">
+					<div class="row">
+					    <div class="col-lg-12">
+							<div class="form-group">
+							    <label class="radio-inline">
+								    <input type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1"> Yes
+								</label>
+								<label class="radio-inline">
+								    <input type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2"> No
+								</label>
+							</div>
+					    </div>
+					</div>
+				</div>					
+			</div>
+			<div class="col-lg-12">
+				<h4>是否有时间辅导学生的作业或是培训英语能力？</h4>
+				<div class="form-group-box">
+					<div class="row">
+					    <div class="col-lg-12">
+							<div class="form-group">
+							    <label class="radio-inline">
+								    <input type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1"> Yes
+								</label>
+								<label class="radio-inline">
+								    <input type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2"> No
+								</label>
+							</div>
+					    </div>
+					</div>
+				</div>					
+			</div>
+			<div class="col-lg-12">
+				<h4>Others</h4>
+				<div class="form-group-box">
+					<div class="row">
+					    <div class="col-lg-12">
+							<div class="form-group">
+								<textarea class="form-control" id="" style="height:100px;"></textarea>
+							</div>
+					    </div>
+					</div>
+				</div>					
+			</div>
+			<div class="btn-box">
+		        <a href="requirement.html" class="btn btn-default bg-black btn-black">Previous</a>
+		        <a href="question.html" class="btn btn-default bg-black btn-black">Next</a>
+		    </div>
+		</div>
+	</div> 
+</div>
+<div class="footer bg-white">
+	<div class="container footer-box">
+		<div class="row">
+			<div class="col-xs-12 col-md-8 text-color-gray">
+				<div class="footer-nav">
+					<a href="##">Home</a>
+					<a href="##">About</a>
+					<a href="##">Contact</a>
+					<a href="##">Social</a> 
+				</div>
+				<h4 class="margin-none">400 - 123 - 4567</h4>
+				<h5 class="margin-none">E-mail:homestay@xxx.com</h5>
+			</div>
+  			<div class="col-xs-6 col-md-4">
+				<a class="pull-left" href="#"><img src="img/logo-gray.png" class="img-responsive"/></a>
+  			</div>
+		</div>
+	</div>
+	<div class="footer-copy text-center text-color-gray">
+		there is copy info
+	</div>
+</div>
+
+<div id="totop">TOP</div>
+</body>
+	<!-- jQuery文件。务必在bootstrap.min.js 之前引入 -->
+	<script type="text/javascript" src="http://cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script>	
+	<!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+	<script type="text/javascript" src="http://cdn.bootcss.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+	<!-- Jquery.autocomplete 文件 -->
+	<script type="text/javascript" src="js/base.js" ></script>
+</html>

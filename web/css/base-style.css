@@ -1,0 +1,193 @@
+body {
+	background:#f8f8f8;
+	/*font-family: 'AgencyFB-Reg';*/
+}
+html, body {
+	 overflow-scrolling: touch; 
+	 -webkit-overflow-scrolling: touch; 
+}
+li {list-style: none;}
+input,
+button {
+	outline:none;
+}
+
+@font-face {
+	font-family:'AgencyFB-Reg';
+	src: url('font/AgencyFB-Reg_gdi.eot');
+	src: url('font/AgencyFB-Reg_gdi.eot?#iefix') format('embedded-opentype'),
+		url('font/AgencyFB-Reg_gdi.woff') format('woff'),
+		url('font/AgencyFB-Reg_gdi.ttf') format('truetype'),
+		url('font/AgencyFB-Reg_gdi.otf') format('opentype'),
+		url('font/AgencyFB-Reg_gdi.svg#AgencyFB-Reg') format('svg');
+	font-weight: 400;
+	font-size:18px;
+	font-style: normal;
+	font-stretch: condensed;
+	unicode-range: U+0020-25CA;
+}
+
+.block {
+	display: block;
+}
+.text-ellipsis {
+	text-overflow:ellipsis; 
+	white-space:nowrap; 
+	overflow:hidden;
+}
+.font12 {
+	font-size:12px;
+}
+/**********
+ base none
+**********/
+.bg-none,
+.active a {
+	background:none !important;
+}
+.padding-none {
+	padding:0;
+}
+.margin-none {
+	margin:0;
+	padding:0;
+}
+.border-none {
+	border:0 !important;
+	border:none;
+}
+.radius-none {
+	border-radius: 0;
+}
+.opacity {
+	opacity: 1;
+}
+.text-shadow {
+	text-shadow:none;
+}
+/**********
+ base color
+**********/
+.border-black{
+	border-color:#111111 !important;
+}
+/**********
+ base text-color
+**********/
+.text-color-white {
+	color:#ffffff;
+}
+.text-color-black {
+	color:#111111 !important;
+}
+.text-color-orange {
+	color:#ffaa3b;
+}
+.text-color-gray {
+	color:#aaaaaa;
+}
+/**********
+ base background-color
+**********/
+.bg-white,
+.icon-bar {
+	background:#ffffff !important;
+}
+.bg-black {
+	background:#737373;
+}
+.bg-gray {
+	background: #e3e3e3;
+}
+.bg-facebook {
+	background:#49629f;
+}
+.bg-google {
+	background:#df4a32;
+}
+.bg-qq {
+	background:#3095f2;
+}
+/**********
+ base link-color
+**********/
+a {
+	color:#111111;
+}
+a:hover,
+.footer-nav a:hover {
+	text-decoration: none;
+	color:#ffaa3b;
+}
+.btn-addimg:hover {
+	color:#ffffff;
+}
+/**********
+ base position
+**********/
+.relative {
+	position:relative;
+}
+/**********
+ base width
+**********/
+.title-width-base {
+	width:140px;
+}
+.title-width-login {
+	width:240px;
+}
+/**********
+ base btn style
+**********/
+.btn-box {
+	padding:25px;
+	text-align:right;
+}
+.btn-default:hover,
+.btn-default:focus,
+.btn-default:active,
+.btn-default.active/*,
+.open .dropdown-toggle.btn-default*/ {
+color: #ffffff !important;
+background-color: #737373 !important;
+}
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active/*,
+.open .dropdown-toggle.btn-default*/ {
+color: #737373 !important;
+background-color: #e3e3e3 !important;
+}
+.btn-black,
+.btn-save {
+	color:#ffffff;
+	border-radius: 0;
+	border:0;
+	width:100px;
+	height:40px;
+	line-height:28px;
+}
+.btn-gray {
+	color:#737373;
+	border-radius: 0;
+	border:0;
+	width:100px;
+	height:40px;
+	line-height:28px;
+}
+.btn-addimg {
+	color:#ffffff;
+	display:block;
+	width:75px;
+	height:75px;
+	line-height:75px;
+	text-align:center;
+	background:#e3e3e3;
+	font-size:30px;
+}
+
+
+
+
