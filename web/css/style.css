@@ -199,6 +199,9 @@
 	padding:20px 10px;
 	border-top:1px #c1c1c1 dashed;
 }
+.checkbox {
+	margin-top:0;
+}
 .other-box {
 	margin-top:15px;
 }
@@ -264,6 +267,35 @@
 }
 .step-list ul li i {
 	font-size:24px;
+}
+.bank-default {}
+.bank-default dl dt {
+	font-size:18px;
+	margin-bottom:10px;
+}
+.bank-default dl dd {
+	padding:20px;
+	margin-bottom:10px;
+	border:1px #cccccc solid;
+	cursor: pointer;
+}
+.bank-default dl dd:hover,
+.bank-default dl dd.active {
+	border-color:#111111;
+}
+.new-account {
+	display:none;
+	padding:10px;
+	border-bottom:1px #cccccc solid;
+	margin:10px 0 40px;
+}
+.new-account h4 {
+	margin-bottom: 15px;
+	padding-bottom:15px;
+	border-bottom:1px #cccccc solid;
+}
+.account-btn-box {
+	padding-bottom:15px;
 }
 /**********
  footer style

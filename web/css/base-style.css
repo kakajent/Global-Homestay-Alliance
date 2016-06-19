@@ -6,6 +6,7 @@ html, body {
 	 overflow-scrolling: touch; 
 	 -webkit-overflow-scrolling: touch; 
 }
+ul,dl,dt {margin:0;}
 li {list-style: none;}
 input,
 button {
@@ -147,18 +148,18 @@ a:hover,
 .btn-default:hover,
 .btn-default:focus,
 .btn-default:active,
-.btn-default.active/*,
-.open .dropdown-toggle.btn-default*/ {
-color: #ffffff !important;
-background-color: #737373 !important;
+.btn-default.active {
+	color: #ffffff !important;
+	background-color: #737373 !important;
+	outline: none !important;
 }
 .btn-primary:hover,
 .btn-primary:focus,
 .btn-primary:active,
-.btn-primary.active/*,
-.open .dropdown-toggle.btn-default*/ {
-color: #737373 !important;
-background-color: #e3e3e3 !important;
+.btn-primary.active {
+	color: #737373 !important;
+	background-color: #e3e3e3 !important;
+	outline: none !important;
 }
 .btn-black,
 .btn-save {
@@ -187,7 +188,18 @@ background-color: #e3e3e3 !important;
 	background:#e3e3e3;
 	font-size:30px;
 }
-
+.btn-add-account {
+	padding:10px 30px;
+	color:#ffffff;
+	background:#4f4f4f;
+	margin: 20px 0;
+}
+.btn-add-account:hover,
+.btn-add-account:focus {
+	background:#757575;
+	color:#ffffff;
+	outline: none !important;
+}
 
 
 

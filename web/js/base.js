@@ -28,5 +28,14 @@ $(document).ready(function () {
 	$('#myModal').on('shown.bs.modal', function () {
 	  $('#myInput').focus()
 	});
+
+	$('.btn-add-account').click(function () {
+		$(this).hide();
+		$('.new-account').show();
+	})
+	$('.btn-account-close').click(function () {
+		$('.btn-add-account').show();
+		$('.new-account').hide();
+	})
 });
 
