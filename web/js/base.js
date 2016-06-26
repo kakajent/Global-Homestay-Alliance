@@ -17,25 +17,57 @@ $(document).ready(function () {
 		$('body,html').animate({scrollTop: 0}, 500);
 		return false;
 	});
-	
+
+	//user
 	$('.nav-user').hover(function(){
 		$(this).addClass('bg-black');
 		$('.user-menu').show();
 	},function(){
 		$('.user-menu').hide();
 	})
-	
+
+	//
 	$('#myModal').on('shown.bs.modal', function () {
-	  $('#myInput').focus()
+	  $('#myInput').focus();
 	});
 
+	//select
+	$('.select').change(function(){
+		var $this = $(this).val(),
+			$box = $('.select-option-box'),
+			$price = $('.language-price-box');
+		if ($this == 'pet') {
+			$box.show();
+		} else if ($this == 'allow') {
+			$box.show();
+		} else if ($this == 'language') {
+			$box.show();
+			$('.select-price').change(function(){
+				if ($(this).val() == 'language-price') {
+					$price.show();
+				} else {
+					$price.hide();
+				}
+			});
+		} else {
+			$box.hide();
+			$price.hide();
+		}
+	});
+
+	//account list
+	$('.bank-default dd').click(function(){
+		$(this).addClass('active').siblings().removeClass('active');
+	});
+
+	//add new account
 	$('.btn-add-account').click(function () {
 		$(this).hide();
 		$('.new-account').show();
-	})
+	});
 	$('.btn-account-close').click(function () {
 		$('.btn-add-account').show();
 		$('.new-account').hide();
-	})
+	});
 });
 

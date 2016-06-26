@@ -268,16 +268,23 @@
 .step-list ul li i {
 	font-size:24px;
 }
+.select-option-box,
+.language-price-box {
+	display:none;
+}
 .bank-default {}
 .bank-default dl dt {
 	font-size:18px;
 	margin-bottom:10px;
 }
 .bank-default dl dd {
-	padding:20px;
+	padding:10px 20px;
 	margin-bottom:10px;
-	border:1px #cccccc solid;
+	border:2px #eeeeee solid;
 	cursor: pointer;
+}
+.bank-default dl dd strong {
+	padding-right:15px;
 }
 .bank-default dl dd:hover,
 .bank-default dl dd.active {
