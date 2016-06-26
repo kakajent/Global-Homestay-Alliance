@@ -36,7 +36,9 @@ $(document).ready(function () {
 		var $this = $(this).val(),
 			$box = $('.select-option-box'),
 			$price = $('.language-price-box');
-		if ($this == 'pet') {
+		if ($this == 'family') {
+			$box.show();
+		} else if ($this == 'pet') {
 			$box.show();
 		} else if ($this == 'allow') {
 			$box.show();
