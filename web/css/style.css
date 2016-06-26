@@ -244,6 +244,16 @@
 	height:75px;
 	overflow: hidden;
 }
+.tax {
+	position:absolute;
+	left:0;
+	top:0;
+	opacity:0;
+	filter:alpha(opacity=0);
+	cursor:pointer;
+	width:200px;
+	height:50px;
+}
 /**********
  release style
 **********/
