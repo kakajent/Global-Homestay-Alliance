@@ -35,6 +35,10 @@ $(document).ready(function () {
 	$('.select').change(function(){
 		var $this = $(this).val(),
 			$box = $('.select-option-box'),
+			$custodianBox = $('.custodian-option-box'),
+			$schoolBox = $('.school-option-box'),
+			$custodian = $('.custodian-price-box'),
+			$school = $('.school-price-box'),
 			$price = $('.language-price-box');
 		if ($this == 'family') {
 			$box.show();
@@ -42,6 +46,24 @@ $(document).ready(function () {
 			$box.show();
 		} else if ($this == 'allow') {
 			$box.show();
+		} else if ($this == 'custodian') {
+			$custodianBox.show();
+			$('.select-price').change(function(){
+				if ($(this).val() == 'custodian-price') {
+					$custodian.show();
+				} else {
+					$custodian.hide();
+				}
+			});
+		} else if ($this == 'school') {
+			$schoolBox.show();
+			$('.select-price').change(function(){
+				if ($(this).val() == 'school-price') {
+					$school.show();
+				} else {
+					$school.hide();
+				}
+			});
 		} else if ($this == 'language') {
 			$box.show();
 			$('.select-price').change(function(){
@@ -54,6 +76,8 @@ $(document).ready(function () {
 		} else {
 			$box.hide();
 			$price.hide();
+			$schoolBox.hide();
+			$custodianBox.hide();
 		}
 	});
 

@@ -279,6 +279,10 @@
 	font-size:24px;
 }
 .select-option-box,
+.school-option-box,
+.custodian-option-box,
+.custodian-price-box,
+.school-price-box,
 .language-price-box {
 	display:none;
 }
