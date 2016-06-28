@@ -260,7 +260,7 @@
 .step-list hr {
 	float:left;
 	width:80px;
-	border-color:#999999;
+	border-color:#cccccc;
 }
 .step-list ul {
 	margin:0 auto;
@@ -273,7 +273,7 @@
 	float:left;
 	text-align:center;
 	font-size:12px;
-	color:#999999;
+	color:#cccccc;
 }
 .step-list ul li i {
 	font-size:24px;
@@ -374,9 +374,6 @@
 	margin-bottom:100px;
 	border:1px #e7e7e7 solid;
 	padding:50px 80px;
-}
-.form-group span {
-	line-height:40px;
 }
 .form-control {
 	margin-bottom:3px;
