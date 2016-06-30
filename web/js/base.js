@@ -35,13 +35,16 @@ $(document).ready(function () {
 	$('.select').change(function(){
 		var $this = $(this).val(),
 			$box = $('.select-option-box'),
+			$familyBox = $('.family-option-box'),
 			$custodianBox = $('.custodian-option-box'),
 			$schoolBox = $('.school-option-box'),
 			$custodian = $('.custodian-price-box'),
 			$school = $('.school-price-box'),
 			$price = $('.language-price-box');
-		if ($this == 'family') {
+		if ($this == 'live') {
 			$box.show();
+		} else if ($this == 'family') {
+			$familyBox.show();
 		} else if ($this == 'pet') {
 			$box.show();
 		} else if ($this == 'allow') {

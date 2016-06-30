@@ -130,7 +130,33 @@
 					<div class="row">
 						<div class="col-lg-6">
 							<div class="form-group">
-								<label for="dtp_input1" class="control-label">When will it be available</label>
+								<label>Number of students in this bedroom</label>
+								<input type="text" class="form-control" placeholder="Number">
+							</div>
+						</div>
+						<div class="col-lg-6">
+							<div class="form-group relative">
+								<label>Price for 1 student in this room ( Monthly )</label>
+								<span class="input-group-addon radius-none price-unit">
+									<span class="glyphicon glyphicon-usd"></span>
+								</span>
+								<input type="text" class="form-control input-price" placeholder="Price">
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-lg-6">
+							<div class="form-group">
+								<label for="dtp_input1" class="control-label">When it will be available</label>
+								<select class="form-control select">
+									<option>Immediately</option>
+									<option value="live">Other time</option>
+								</select>
+							</div>
+						</div>
+						<div class="col-lg-6">
+							<div class="form-group select-option-box">
+								<label for="dtp_input1" class="control-label">&nbsp;</label>
 								<div class="input-group date form_datetime" data-date-format="dd MM yyyy - HH:ii p" data-link-field="dtp_input1">
 									<input class="form-control bg-white" size="16" type="text" value="" readonly>
 									<span class="input-group-addon radius-none">
@@ -140,13 +166,7 @@
 										<span class="icon-calendar"></span>
 									</span>
 								</div>
-								<input type="hidden" id="dtp_input1" value="" /><br/>
-							</div>
-						</div>
-						<div class="col-lg-6">
-							<div class="form-group">
-								<label>Price</label>
-								<input type="text" class="form-control" placeholder="Price">
+								<input type="hidden" id="dtp_input1" value="" />
 							</div>
 						</div>
 					</div>
@@ -306,7 +326,31 @@
 									<input type="checkbox" value="option2"> TV
 								</label>
 								<label class="checkbox-inline">
-									<input type="checkbox" value="option3"> Computer
+									<input type="checkbox" value="option3"> Closet
+								</label>
+								<label class="checkbox-inline">
+									<input type="checkbox" value="option3"> Windows
+								</label>
+								<label class="checkbox-inline">
+									<input type="checkbox" value="option3"> Queen Bed
+								</label>
+								<label class="checkbox-inline">
+									<input type="checkbox" value="option3"> Double Bed
+								</label>
+								<label class="checkbox-inline">
+									<input type="checkbox" value="option3"> Single Bed
+								</label>
+								<label class="checkbox-inline">
+									<input type="checkbox" value="option3"> Desk & Chair
+								</label>
+								<label class="checkbox-inline">
+									<input type="checkbox" value="option3"> Lamp
+								</label>
+								<label class="checkbox-inline">
+									<input type="checkbox" value="option3"> Air Conditioning
+								</label>
+								<label class="checkbox-inline">
+									<input type="checkbox" value="option3"> Mirror
 								</label>
 							</div>
 						</div>
@@ -426,7 +470,7 @@
 	<script type="text/javascript" src="http://cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script>	
 	<!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
 	<script type="text/javascript" src="http://cdn.bootcss.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-	<!-- Jquery.base 文件 -->
+	<!-- Jquery.datetime 文件 -->
 	<script type="text/javascript" src="js/bootstrap-datetimepicker.js" ></script>
 	<!-- Jquery.base 文件 -->
 	<script type="text/javascript" src="js/base.js" ></script>
