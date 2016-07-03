@@ -51,7 +51,7 @@ $(document).ready(function () {
 			$box.show();
 		} else if ($this == 'custodian') {
 			$custodianBox.show();
-			$('.select-price').change(function(){
+			$('.select-price-cus').change(function(){
 				if ($(this).val() == 'custodian-price') {
 					$custodian.show();
 				} else {
@@ -60,7 +60,7 @@ $(document).ready(function () {
 			});
 		} else if ($this == 'school') {
 			$schoolBox.show();
-			$('.select-price').change(function(){
+			$('.select-price-sch').change(function(){
 				if ($(this).val() == 'school-price') {
 					$school.show();
 				} else {
@@ -69,7 +69,7 @@ $(document).ready(function () {
 			});
 		} else if ($this == 'language') {
 			$box.show();
-			$('.select-price').change(function(){
+			$('.select-price-lan').change(function(){
 				if ($(this).val() == 'language-price') {
 					$price.show();
 				} else {
